@@ -6,7 +6,7 @@
 }
 
 .app-body {
-  background-color: #ecf0f5;
+  background-color: #36393F;
 }
 
 .ReactTable .rt-td.horizontal-scroll {
@@ -134,8 +134,23 @@
   font-size: 3em;
 }
 
+.card {
+  background-color: #2F3136 !important;
+  border: 1px solid #2F3136 !important;
+}
+
+.card-header, .card-body, .table {
+  background-color: #2F3136 !important;
+  color: $white !important;
+}
+
 .app-header .navbar-toggler {
   min-width: initial;
+}
+
+.app-header {
+  background-color: #292B2F !important;
+  border-bottom: #292B2F !important;
 }
 
 .sidebar .nav-item {
